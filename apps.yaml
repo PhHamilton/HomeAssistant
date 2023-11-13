@@ -1,3 +1,13 @@
 hello_world:
   module: hello
   class: HelloWorld
+
+toggle_window_lights: 
+  module: 
+  class: ToggleWindowLights
+  enabled: true
+  id: 
+    - light1
+    - light2
+  on_time: "19:00:00" 
+  off_time: "22:15:00"
